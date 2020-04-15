@@ -16,7 +16,7 @@ public class MeowCatApplication extends XposedApp {
     @Override
     public void onCreate() {
         super.onCreate();
-        CrashHandler.getInstance().init(getApplicationContext());
+//        CrashHandler.getInstance().init(getApplicationContext());
         disableAPIDialog();
     }
 
